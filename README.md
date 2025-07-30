@@ -50,7 +50,7 @@ A sophisticated multi-agent AI system for legal contract analysis and document p
 - **pdf2image**: PDF to image conversion
 - **fpdf**: PDF generation for exports
 - **uvicorn**: ASGI server for FastAPI
-
+  
 ### **Frontend (React/TypeScript)**
 - **React 18**: Modern React with hooks and functional components
 - **TypeScript**: Type-safe JavaScript development
@@ -137,6 +137,9 @@ A sophisticated multi-agent AI system for legal contract analysis and document p
 ##  How It Works
 
 
+![upload screen ](https://github.com/user-attachments/assets/591365d3-8f34-4e28-a789-5d5b2097c4a2)
+
+
 ### 1. **Document Upload & Processing**
 ```
 User Upload → OCR Processing → Text Extraction → ChromaDB Storage
@@ -146,6 +149,9 @@ User Upload → OCR Processing → Text Extraction → ChromaDB Storage
 - Backend processes files using pytesseract for OCR
 - Extracted text is stored in ChromaDB for efficient retrieval
 - Document metadata is tracked for analysis
+
+
+![agents screen ](https://github.com/user-attachments/assets/54d0d98c-f831-4819-b7b7-9c71543c6a80)
 
 
 ### 2. **Multi-Agent Analysis**
@@ -190,6 +196,8 @@ User Query → Agent Selection → CrewAI Orchestration → AI Analysis → Resp
 - Contract rewriting feature creates improved versions
 - All exports are properly formatted and structured
 
+
+![dwnld screen ](https://github.com/user-attachments/assets/bb978b40-4ee0-49e0-ba6c-c0495485e362)
 
 
 ## 🔧 API Endpoints
