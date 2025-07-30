@@ -135,6 +135,11 @@ A sophisticated multi-agent AI system for legal contract analysis and document p
    - API Documentation: http://localhost:8000/docs
 
 ##  How It Works
+
+![Agentic Document Analysis Interface](https://via.placeholder.com/800x400/4F46E5/FFFFFF?text=Agentic+Document+Analysis+Interface)
+
+*The web application interface showing the document upload area and chat input for legal document analysis.*
+
 ### 1. **Document Upload & Processing**
 ```
 User Upload → OCR Processing → Text Extraction → ChromaDB Storage
@@ -144,6 +149,10 @@ User Upload → OCR Processing → Text Extraction → ChromaDB Storage
 - Backend processes files using pytesseract for OCR
 - Extracted text is stored in ChromaDB for efficient retrieval
 - Document metadata is tracked for analysis
+
+![Document Analysis Interface with Agents](https://via.placeholder.com/800x500/4F46E5/FFFFFF?text=Document+Analysis+Interface+with+Agents)
+
+*The application interface showing uploaded documents, agent selection cards, and chat functionality for comprehensive legal document analysis.*
 
 ### 2. **Multi-Agent Analysis**
 ```
@@ -186,6 +195,10 @@ User Query → Agent Selection → CrewAI Orchestration → AI Analysis → Resp
 - Users can download complete chat analysis as PDF
 - Contract rewriting feature creates improved versions
 - All exports are properly formatted and structured
+
+![Analysis Results and Export Options](https://via.placeholder.com/800x500/4F46E5/FFFFFF?text=Analysis+Results+and+Export+Options)
+
+*The application interface showing analysis results with ambiguity detection, suggested improvements, and export options for PDF and rephrased contracts.*
 
 ## 🔧 API Endpoints
 
