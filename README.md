@@ -136,7 +136,7 @@ A sophisticated multi-agent AI system for legal contract analysis and document p
 
 ##  How It Works
 
-![Agentic Document Analysis Interface](https://via.placeholder.com/800x400/4F46E5/FFFFFF?text=Agentic+Document+Analysis+Interface)
+![Agentic Document Analysis Interface](images/upload screen .jpg)
 
 *The web application interface showing the document upload area and chat input for legal document analysis.*
 
@@ -150,7 +150,7 @@ User Upload → OCR Processing → Text Extraction → ChromaDB Storage
 - Extracted text is stored in ChromaDB for efficient retrieval
 - Document metadata is tracked for analysis
 
-![Document Analysis Interface with Agents](https://via.placeholder.com/800x500/4F46E5/FFFFFF?text=Document+Analysis+Interface+with+Agents)
+![Document Analysis Interface with Agents](images/agents screen .jpg)
 
 *The application interface showing uploaded documents, agent selection cards, and chat functionality for comprehensive legal document analysis.*
 
@@ -197,7 +197,7 @@ User Query → Agent Selection → CrewAI Orchestration → AI Analysis → Resp
 - All exports are properly formatted and structured
 
 
-![Analysis Results and Export Options](https://via.placeholder.com/800x500/4F46E5/FFFFFF?text=Analysis+Results+and+Export+Options)
+![Analysis Results and Export Options](images/dwnld screen .jpg)
 
 *The application interface showing analysis results with ambiguity detection, suggested improvements, and export options for PDF and rephrased contracts.*
 
