@@ -4,7 +4,9 @@ A sophisticated multi-agent AI system for legal contract analysis and document p
 
 
 
-https://github.com/user-attachments/assets/3d37ba48-b4ec-47e9-8240-d8911458ba4f
+
+
+ https://github.com/user-attachments/assets/b3947674-5b7d-4e19-ac36-247d958a5833
 
 
 
