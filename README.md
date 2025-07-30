@@ -1,4 +1,4 @@
-# 🤖 Agentic Document Analysis
+# Agentic Document Analysis
 
 A sophisticated multi-agent AI system for legal contract analysis and document processing. This application combines OCR technology, AI agents, and a modern web interface to provide comprehensive document analysis capabilities.
 
@@ -7,7 +7,7 @@ A sophisticated multi-agent AI system for legal contract analysis and document p
 ![React](https://img.shields.io/badge/react-18+-blue.svg)
 ![FastAPI](https://img.shields.io/badge/fastapi-0.100+-green.svg)
 
-## ✨ Features
+## Features
 
 ### 🔍 **Multi-Agent Analysis System**
 - **Ambiguity Detector**: Identifies unclear language and suggests improvements
@@ -134,8 +134,7 @@ A sophisticated multi-agent AI system for legal contract analysis and document p
    - Backend API: http://localhost:8000
    - API Documentation: http://localhost:8000/docs
 
-## 📖 How It Works
-
+##  How It Works
 ### 1. **Document Upload & Processing**
 ```
 User Upload → OCR Processing → Text Extraction → ChromaDB Storage
@@ -202,7 +201,7 @@ User Query → Agent Selection → CrewAI Orchestration → AI Analysis → Resp
 - `POST /export-pdf/{document_id}` - Generate PDF of chat analysis
 - `POST /rewrite-contract/{document_id}` - Create improved contract version
 
-## 🎯 Usage Examples
+## Usage Examples
 
 ### **Basic Document Analysis**
 1. Upload a legal contract (PDF or image)
@@ -256,7 +255,7 @@ legal-agentic2/
 - Adjust analysis parameters in `qa_module.py`
 - Update UI components for new features
 
-## 🔒 Security Considerations
+## Security Considerations
 
 - **API Keys**: Never commit `.env` files to version control
 - **File Uploads**: Implement proper file validation and size limits
@@ -283,7 +282,7 @@ COPY backend/ .
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -295,7 +294,7 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **CrewAI** for multi-agent orchestration
 - **OpenAI** for language model capabilities
@@ -303,10 +302,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **FastAPI** for the excellent web framework
 - **React** and **Tailwind CSS** for the modern UI
 
-## 📞 Support
-
-For support, email support@yourdomain.com or create an issue in the GitHub repository.
-
----
-
-**Made with ❤️ for legal professionals and document analysts**
