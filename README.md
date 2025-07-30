@@ -196,6 +196,7 @@ User Query → Agent Selection → CrewAI Orchestration → AI Analysis → Resp
 - Contract rewriting feature creates improved versions
 - All exports are properly formatted and structured
 
+
 ![Analysis Results and Export Options](https://via.placeholder.com/800x500/4F46E5/FFFFFF?text=Analysis+Results+and+Export+Options)
 
 *The application interface showing analysis results with ambiguity detection, suggested improvements, and export options for PDF and rephrased contracts.*
