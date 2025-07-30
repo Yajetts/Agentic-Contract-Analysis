@@ -2,6 +2,14 @@
 
 A sophisticated multi-agent AI system for legal contract analysis and document processing. This application combines OCR technology, AI agents, and a modern web interface to provide comprehensive document analysis capabilities.
 
+
+
+https://github.com/user-attachments/assets/3d37ba48-b4ec-47e9-8240-d8911458ba4f
+
+
+
+
+
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![React](https://img.shields.io/badge/react-18+-blue.svg)
