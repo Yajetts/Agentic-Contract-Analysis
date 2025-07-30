@@ -1,0 +1,64 @@
+A multi agent system that
+
+Accepts image inputs of legal contracts (e.g., property agreements, sales contracts).
+Uses OCR (Optical Character Recognition) to extract text from these images.
+Parses and stores the extracted text in a structured or searchable format.
+Accepts user queries related to the content of the uploaded contract.
+Uses semantic search or language models to answer user questions accurately based on the extracted contract text.
+
+Technologies to use:
+pytesseract for OCR
+langchain for question-answering
+chromadb for text retrieval
+Keep it modular: separate modules for OCR, text preprocessing, and QA
+
+**important**
+Focus on: 
+Clean code with best practices
+Error handling (e.g., blurry image, poor OCR)
+Ability to handle multi-page scanned PDF documents 
+Can read mutiple pages of a document at once
+
+
+use CrewAI to construct the agents and give them detailed prompts
+assign them tasks
+use suitable CrewAI tools 
+crewai docs https://docs.crewai.com/en/introduction
+Use agent and tools to perform specific tasks 
+Agents to be contructed: 
+    1.Ambiguity: Detects ambiguous sentences, words or phrases that may be confusing to the reader
+    and provides and explanaition as to why it is an ambiguity and what could be a 
+    better way of writing that sentence/ word.
+
+    2.framework analyser: Map and interpret governing law provisions across jurisdictions while 
+    identifying potential conflicts and harmonization requirements about the topic
+    
+    3.Summarizer: Will summarize all the pages of the entered document, provides important details, keywords, breif explainations, etc.
+
+    4.Deadline & Obligation Tracker: Extracts all critical dates, deliverables, deadlines 
+    and obligations, like payment dates, contract time durations,etc.
+
+these outputs listed above should only be given by the agentic framework 
+
+
+
+For the LLM requirement, we will use OpenAI's gpt-4o model.
+# Set up your .env file with the following variables:
+# OPENAI_API_KEY=your_openai_api_key_here
+# OPENAI_MODEL=gpt-4o
+
+
+
+For the UI: the UI is already built, its in the contract-chat-ai-assist folder.
+i want you to integrate this UI into the project, the agentic system will chat with the user through the chat window, 
+the user can upload the document that needs to be analysed throught the upload window at the start.
+The chat bar will have buttons that the user can click that will connect to the actions of a particular agent 
+(a button for ambiguity search, one for framework analysis,one for producing the summary of the document and one for finding the deadline and obligations in the doc)
+you can make any necessary edits and additions to this UI code 
+
+
+pdf export button - compresses results of all chats into a downloadable pdf 
+
+document rewriter - rewrites the document with the ambiguities replaced
+
+
