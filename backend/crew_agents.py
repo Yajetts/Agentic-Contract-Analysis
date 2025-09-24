@@ -1,9 +1,6 @@
 from crewai import Agent, Task
 import os
 
-# Use environment variables for API key and model name
-# OPENAI_API_KEY and OPENAI_MODEL_NAME should be set in the .env file
-
 # Agent: Ambiguity Detector
 ambiguity_agent = Agent(
     name="Ambiguity Detector",
@@ -134,4 +131,5 @@ def risk_assessment_task(text):
         input=text,
         description="Identify risky clauses in the contract and explain why they are a concern, following strict output constraints.",
         expected_output="A JSON array of risky clauses, each with clause type, exact clause text, and risk description, following the strict constraints."
+
     ) 
